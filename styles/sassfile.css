@@ -1,8 +1,50 @@
 body {
-  background-color: #343434; }
+  background-color: rgba(20, 20, 20, 0.76); }
+
+#firstPage {
+  background-color: rgba(20, 20, 20, 0.76);
+  text-align: center; }
+
+#secondPage {
+  background-color: #952630; }
+
+#thirdPage {
+  background-color: #e26f31; }
+
+#fourthPage {
+  background-color: #ab63bb; }
+
+.secondSlides {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  color: white; }
 
 h1 {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 60px; }
+
+#nav {
+  position: relative;
   text-align: center;
-  color: #d21612; }
+  margin: 0 auto;
+  bottom: -10%;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+  text-decoration: none; }
+
+.navlink {
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+  text-decoration: none; }
+
+.navlink:hover {
+  font-family: Helvetica;
+  font-size: 30px;
+  color: red;
+  text-decoration: none; }
 
 /*# sourceMappingURL=sassfile.css.map */

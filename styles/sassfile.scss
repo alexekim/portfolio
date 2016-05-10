@@ -1,13 +1,65 @@
-$bg-green: rgb(34, 163, 97);
-$h1: rgb(210, 22, 18);
+$neutralgray: rgba(20, 20, 20, 0.76);
+$headFont: 'Fjalla One', sans-serif;
 
 
 body{
-  background-color: rgb(52, 52, 52);
+  background-color: $neutralgray;
+}
+
+#firstPage{
+  background-color: $neutralgray;
+  text-align: center;
+}
+
+#secondPage{
+  background-color: rgb(149, 38, 48);
+}
+
+#thirdPage{
+  background-color: rgb(226, 111, 49);
+}
+
+#fourthPage{
+  background-color: rgb(171, 99, 187);
+}
+
+.secondSlides{
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  color: white;
 }
 
 
 h1 {
+  color: rgb(255, 255, 255);
+  font-family: $headFont;
+  font-size: 60px;
+}
+
+#nav{
+  position: relative;
   text-align: center;
-  color: $h1;
+  margin: 0 auto;
+  bottom: -10%;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.navlink{
+  font-family: Helvetica;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover{
+  font-family: Helvetica;
+  font-size: 30px;
+  color: red;
+  text-decoration: none;
+
 }
