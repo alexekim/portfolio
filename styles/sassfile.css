@@ -1,5 +1,8 @@
+.foggyclarity {
+  background-color: rgba(111, 119, 118, 0.5); }
+
 #firstPage {
-  background-image: url("../images/cello.jpg");
+  background: url("../images/cello.jpg");
   background-size: cover; }
 
 #firstcontainer {
@@ -27,28 +30,79 @@
   text-align: center;
   color: white;
   font-family: "Fjalla One", sans-serif;
-  font-size: 70px; }
+  font-size: 70px;
+  text-shadow: rgba(0, 0, 0, 0.91) 0 0 4px; }
 
 #nav {
   position: relative;
   text-align: center;
   margin: 0 auto;
   bottom: -10%;
-  font-family: Helvetica;
-  font-size: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
   color: white;
   text-decoration: none; }
 
 .navlink {
-  font-family: Helvetica;
-  font-size: 30px;
-  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  color: #de4545;
   text-decoration: none; }
 
 .navlink:hover {
-  font-family: Helvetica;
-  font-size: 30px;
-  color: red;
-  text-decoration: none; }
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  color: #a11c1c; }
+
+#about {
+  background-color: rgba(51, 50, 51, 0.75); }
+
+#profile {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.head {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #de4545; }
+
+.profiletext {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px; }
+
+.red {
+  color: #de4545;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+#mug {
+  display: block;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px; }
+
+#project1 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  font-size: 48px; }
+
+.projectimg {
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=sassfile.css.map */

@@ -3,9 +3,13 @@
   <head>
     <meta name="description" content="Alex Kim web developer portfolio" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:300,400' rel='stylesheet' type='text/css'>
 
 
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="styles/jquery.fullPage.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles/sassfile.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -19,11 +23,8 @@
   <body>
 
     <div id="fullpage">
-
       <!-- FIRST PAGE HERE======================= -->
       <div id="firstPage" class="section">
-        <!-- <div id="firstcontainer"> -->
-        <img id="cello" alt="" />
 
         <div class="container">
           <div class="row">
@@ -31,6 +32,15 @@
               <h1 id="name">ALEX KIM</h1>
             </div>
           </div>
+
+          <div class="row">
+            <div class="offset-by-three six columns">
+              <p class="foggyclarity" id="nav">
+                web developer, cellist, bike mechanic, friend
+              </p>
+            </div>
+          </div>
+
           <div id="nav" class="row">
             <div class="four columns">
               <a class="navlink" href="#">About</a>
@@ -43,31 +53,68 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
-    </div>
+      </div>
       <!-- SECOND PAGE HERE======================= -->
 
       <div id="secondPage" class="section">
-        <img id="bike" alt="" />
-
-        <div class="container">
+        <div id="about" class="container">
 
           <div class="row">
             <div class="twelve columns">
-              <h1>About</h1>
+              <h1 class="head" >About</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div id="profile" class="three columns">
+              <img id="mug" src="images/squarealex.png" alt="" />
+              <h4 class="profiletext" >Alex Kim!</h4>
+            </div>
 
+            <div class="offset-by-one eight columns">
+              <p class="profiletext" >
+                I'm a professional hobbyist. As a <span class="red">web-developer</span>, I have been coding 80+ hours per week in the full stack. Independently and in teams, I've engineered a few apps that are open for you to <a  class="profiletext" href="#">view right here</a>.
+                <br><br>
+                When it's time to take a break from coding, I like to remind myself that <span class="red">I am human</span>. I played as Principal <span class="red">Cellist</span> in the Illinois Wesleyan Civic Orchestra, went on tour with my band, and later went on to be a pro-bike mechanic. I now have about 6 <span class="red">bikes</span>. I like meeting fellow nerds that are also passionate about nerdy things.
+              </p>
             </div>
           </div>
         </div>
       </div>
+
       <!-- THIRD PAGE HERE======================= -->
       <div id="thirdPage" class="section">
+        <h1 class="head">Projects</h1>
 
-        <h1>Projects</h1>
-        <div class="slide secondSlides"> Slide 1 </div>
-        <div class="slide secondSlides"> Slide 2 </div>
-        <div class="slide secondSlides"> Slide 3 </div>
-        <div class="slide secondSlides"> Slide 4 </div>
+        <!-- PROJECT 1 ------------------>
+        <div class="slide">
+
+          <h1 id="project1">Ear Training</h1>
+          <div class="container">
+            <div class="row">
+              <div style="background-color:blue;" class="six columns">
+                <img class="projectimg" src="images/project1.png" alt="" />
+              </div>
+              <div style="background-color: rgb(50, 50, 50)" class="six columns">
+                <p style="font-family: 'Nunito', sans-serif; font-size: 18px;">Just like classical ear training, the game presents the player with a melody. The player must listen closely to the melody and decipher which notes were played. A keyboard, built with JavaScript, is available as either a tool to the player using clicks or the homerow of the keyboard.
+                </p>
+                <a href="http://alexekim.github.io/project1/">See it</a>
+                <a href="https://github.com/alexekim/alexekim.github.io/tree/master/project1">Github</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 ------------------>
+        <div class="slide ">
+
+
+      </div>
+
+        <div class="slide ">
+
+        </div>
+        <div class="slide "> Slide 4 </div>
 
       </div>
       <!-- FOURTH PAGE HERE======================= -->
