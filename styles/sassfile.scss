@@ -1,27 +1,104 @@
-$neutralgray: rgba(20, 20, 20, 0.76);
+$neutralgray: rgba(20, 20, 20, 0.2);
 $headFont: 'Fjalla One', sans-serif;
 
 
-body{
-  background-color: $neutralgray;
-}
-
 #firstPage{
-  background-color: $neutralgray;
-  text-align: center;
+  // background-color: $neutralgray;
+  background-image: url("../images/cello.jpg");
+  background-size: cover;
+
 }
 
 #secondPage{
-  background-color: rgb(149, 38, 48);
+  // background-color: rgba(149, 38, 48, .2);
+  background-image: url("../images/bike.jpg");
+  background-size: cover;
+
 }
 
 #thirdPage{
-  background-color: rgb(226, 111, 49);
+  // background-color: rgba(226, 111, 49, .2);
+  background-image: url("../images/water.jpg");
+  background-size: cover;
+
+
 }
 
 #fourthPage{
-  background-color: rgb(171, 99, 187);
+  // background-color: rgba(171, 99, 187, .2);
+  background-image: url("../images/plane.jpg");
+  background-size: cover;
+
 }
+
+
+// #bike{
+//   z-index: -1;
+//   position: fixed;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background: url("../images/bike.JPG") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   /* Preserve aspect ratio */
+//   min-width: 100%;
+//   min-height: 100%;
+// }
+//
+// #cello{
+//   z-index: -1;
+//   display: block;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background: url("../images/cello.JPG") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   /* Preserve aspect ratio */
+//   min-width: 100%;
+//   min-height: 100%;
+// }
+//
+// #plane{
+//   z-index: -1;
+//   display: block;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background: url("../images/plane.JPG") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   /* Preserve aspect ratio */
+//   min-width: 100%;
+//   min-height: 100%;
+// }
+//
+// #water{
+//   // z-index: -1;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background: url("../images/water.JPG") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   /* Preserve aspect ratio */
+//   min-width: 100%;
+//   min-height: 100%;
+// }
+
 
 .secondSlides{
   text-align: center;
@@ -34,7 +111,7 @@ body{
 h1 {
   color: rgb(255, 255, 255);
   font-family: $headFont;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 #nav{

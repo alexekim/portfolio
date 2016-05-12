@@ -1,18 +1,18 @@
-body {
-  background-color: rgba(20, 20, 20, 0.76); }
-
 #firstPage {
-  background-color: rgba(20, 20, 20, 0.76);
-  text-align: center; }
+  background-image: url("../images/cello.jpg");
+  background-size: cover; }
 
 #secondPage {
-  background-color: #952630; }
+  background-image: url("../images/bike.jpg");
+  background-size: cover; }
 
 #thirdPage {
-  background-color: #e26f31; }
+  background-image: url("../images/water.jpg");
+  background-size: cover; }
 
 #fourthPage {
-  background-color: #ab63bb; }
+  background-image: url("../images/plane.jpg");
+  background-size: cover; }
 
 .secondSlides {
   text-align: center;
@@ -23,7 +23,7 @@ body {
 h1 {
   color: white;
   font-family: "Fjalla One", sans-serif;
-  font-size: 60px; }
+  font-size: 70px; }
 
 #nav {
   position: relative;

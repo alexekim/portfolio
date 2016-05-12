@@ -8,55 +8,70 @@
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/jquery.fullPage.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="styles/sassfile.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/skeleton.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="scripts/jquery.fullPage.js" type="text/javascript"></script>
-    <script src="scripts/app.js" type="text/javascript"></script>
 
     <title>Alex Kim</title>
   </head>
   <body>
+
     <div id="fullpage">
 
+      <!-- FIRST PAGE HERE======================= -->
       <div id="firstPage" class="section">
-        <h1>ALEX KIM</h1>
-        <h2>Hey!</h2>
-        <div id="nav">
-          <a class="navlink" href="#">About</a>
-          <a class="navlink" href="#">Portfolio</a>
-          <a class="navlink" href="#">Contact</a>
+        <img id="cello" alt="" />
+
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <h1>ALEX KIM</h1>
+            </div>
+          </div>
+          <div id="nav" class="row">
+            <div class="four columns">
+              <a class="navlink" href="#">About</a>
+            </div>
+            <div class="four columns">
+              <a class="navlink" href="#">Portfolio</a>
+            </div>
+            <div class="four columns">
+              <a class="navlink" href="#">Contact</a>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- SECOND PAGE HERE======================= -->
 
       <div id="secondPage" class="section">
-        <h1>2</h1>
+        <img id="bike" alt="" />
+
+        <div class="container">
+
+          <div class="row">
+            <div class="twelve columns">
+              <h1>About</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIRD PAGE HERE======================= -->
+      <div id="thirdPage" class="section">
+
+        <h1>Projects</h1>
         <div class="slide secondSlides"> Slide 1 </div>
         <div class="slide secondSlides"> Slide 2 </div>
         <div class="slide secondSlides"> Slide 3 </div>
         <div class="slide secondSlides"> Slide 4 </div>
-      </div>
 
-      <div id="thirdPage" class="section">
-        <h1>3</h1>
       </div>
-
+      <!-- FOURTH PAGE HERE======================= -->
       <div id="fourthPage" class="section">
-        <h1>4</h1>
-      </div>
-    </div>
 
-    <div id="fullpage">
-      <div class="section">
-        1
-      </div>
-      <div class="section">
-        2
-      </div>
-      <div class="section">
-        3
-      </div>
-      <div class="section">
-        4
+        <h1>Contact</h1>
       </div>
     </div>
 
@@ -64,4 +79,6 @@
 
 
   </body>
+  <script src="scripts/app.js" type="text/javascript"></script>
+
 </html>
