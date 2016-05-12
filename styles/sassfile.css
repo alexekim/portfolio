@@ -2,6 +2,9 @@
   background-image: url("../images/cello.jpg");
   background-size: cover; }
 
+#firstcontainer {
+  background-color: rgba(20, 20, 20, 0.2); }
+
 #secondPage {
   background-image: url("../images/bike.jpg");
   background-size: cover; }
@@ -20,7 +23,8 @@
   font-size: 36px;
   color: white; }
 
-h1 {
+#name {
+  text-align: center;
   color: white;
   font-family: "Fjalla One", sans-serif;
   font-size: 70px; }

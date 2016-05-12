@@ -6,7 +6,9 @@ $headFont: 'Fjalla One', sans-serif;
   // background-color: $neutralgray;
   background-image: url("../images/cello.jpg");
   background-size: cover;
-
+}
+#firstcontainer{
+  background-color: $neutralgray;
 }
 
 #secondPage{
@@ -32,74 +34,6 @@ $headFont: 'Fjalla One', sans-serif;
 }
 
 
-// #bike{
-//   z-index: -1;
-//   position: fixed;
-//   display: block;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   background: url("../images/bike.JPG") no-repeat center center fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   /* Preserve aspect ratio */
-//   min-width: 100%;
-//   min-height: 100%;
-// }
-//
-// #cello{
-//   z-index: -1;
-//   display: block;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   background: url("../images/cello.JPG") no-repeat center center fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   /* Preserve aspect ratio */
-//   min-width: 100%;
-//   min-height: 100%;
-// }
-//
-// #plane{
-//   z-index: -1;
-//   display: block;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   background: url("../images/plane.JPG") no-repeat center center fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   /* Preserve aspect ratio */
-//   min-width: 100%;
-//   min-height: 100%;
-// }
-//
-// #water{
-//   // z-index: -1;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   background: url("../images/water.JPG") no-repeat center center fixed;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-//   /* Preserve aspect ratio */
-//   min-width: 100%;
-//   min-height: 100%;
-// }
-
-
 .secondSlides{
   text-align: center;
   font-family: Helvetica, sans-serif;
@@ -108,7 +42,8 @@ $headFont: 'Fjalla One', sans-serif;
 }
 
 
-h1 {
+#name {
+  text-align: center;
   color: rgb(255, 255, 255);
   font-family: $headFont;
   font-size: 70px;
