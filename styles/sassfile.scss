@@ -114,7 +114,7 @@ $fun: 'Nunito', sans-serif;
 .profiletext{
   color: white;
   font-family: $fun;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .red{
@@ -137,11 +137,72 @@ $fun: 'Nunito', sans-serif;
 
 #project1{
   text-align: center;
-  font-family: 'Libre Baskerville', serif;  color: white;
+  font-family: 'Libre Baskerville', serif;
   font-size: 48px;
 }
+
+#project2{
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 48px;
+}
+
+#project3{
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 48px;
+}
+
+#project4{
+  text-align: center;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 60px;
+}
+
 
 .projectimg{
   height: 100%;
   width: 100%;
 }
+
+
+#project1big{
+  background: url("../images/project1big.png");
+  background-size: cover;
+}
+#project2big{
+  background: url("../images/project2big.png");
+  background-size: cover;
+}
+#project3big{
+  background: url("../images/project3big.png");
+  background-size: cover;
+}
+#project4big{
+  background: url("../images/project4big.png");
+  background-size: cover;
+}
+
+.bigdesc{
+  text-align: center;
+  background-color: rgba(40, 40, 40, 0.72);
+  color: white;
+  font-family: $fun;
+}
+
+
+// #trial{
+//   z-index: -1;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background: url("../images/project1.png") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   /* Preserve aspect ratio */
+//   min-width: 100%;
+//   min-height: 100%;
+// }
