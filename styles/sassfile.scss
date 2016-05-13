@@ -26,7 +26,7 @@ $fun: 'Nunito', sans-serif;
 
 #secondPage{
   // background-color: rgba(149, 38, 48, .2);
-  background-image: url("../images/bike.jpg");
+  background-image: url("../images/campy.jpg");
   background-size: cover;
 }
 
@@ -56,14 +56,16 @@ $fun: 'Nunito', sans-serif;
   text-align: center;
   color: white;
   font-family: $headFont;
-  font-size: 70px;
+  font-size: 80px;
   text-shadow: rgba(0, 0, 0, 0.91) 0 0 4px;
 }
 
 #nav{
   position: relative;
   text-align: center;
-  margin: 0 auto;
+  top: 4em;
+  margin-left: auto;
+  margin-right: auto;
   bottom: -10%;
   font-family: $sarif;
   font-size: 16px;
@@ -92,7 +94,7 @@ $fun: 'Nunito', sans-serif;
 }
 
 #about{
-  background-color: rgba(51, 50, 51, 0.75);
+  background-color: rgba(51, 50, 51, 0.65);
 }
 
 #profile{
@@ -104,6 +106,7 @@ $fun: 'Nunito', sans-serif;
 
 .head{
   text-align: center;
+  margin-top: 2%;
   // font-family: $fun
   font-family: $headFont;
   font-size: 48px;
@@ -124,6 +127,13 @@ $fun: 'Nunito', sans-serif;
   font-weight: bold;
 }
 
+#mugtext{
+  color: $salmon;
+  font-family: $fun;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 #mug {
   display:block;
   margin: auto;
@@ -138,13 +148,13 @@ $fun: 'Nunito', sans-serif;
 #project1{
   text-align: center;
   font-family: 'Libre Baskerville', serif;
-  font-size: 48px;
+  font-size: 52px;
 }
 
 #project2{
   text-align: center;
   font-family: 'Philosopher', sans-serif;
-  font-size: 48px;
+  font-size: 52px;
 }
 
 #project3{
@@ -156,7 +166,7 @@ $fun: 'Nunito', sans-serif;
 #project4{
   text-align: center;
   font-family: 'Grand Hotel', cursive;
-  font-size: 60px;
+  font-size: 72px;
 }
 
 
@@ -165,6 +175,37 @@ $fun: 'Nunito', sans-serif;
   width: 100%;
 }
 
+.projectimg:hover{
+  // -o-transition:.5s;
+  // -ms-transition:.5s;
+  // -moz-transition:.5s;
+  // -webkit-transition:.5s;
+  // transition:.5s;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.projectlinks{
+  color: $salmon;
+  text-decoration: none;
+  background-color: rgb(48, 48, 48);
+  padding: 4px;
+}
+.projectlinks:hover{
+  color: $salmon;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+}
 
 #project1big{
   background: url("../images/project1big.png");
@@ -185,7 +226,7 @@ $fun: 'Nunito', sans-serif;
 
 .bigdesc{
   text-align: center;
-  background-color: rgba(40, 40, 40, 0.72);
+  background-color: rgba(40, 40, 40, 0.9);
   color: white;
   font-family: $fun;
 }
