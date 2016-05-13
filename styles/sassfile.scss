@@ -1,7 +1,7 @@
 $neutralgray: rgba(20, 20, 20, 0.2);
 $headFont: 'Fjalla One', sans-serif;
 $sarif: 'Merriweather', serif;
-$salmon: rgb(222, 69, 69);
+$salmon: rgb(204, 45, 45);
 $fun: 'Nunito', sans-serif;
 
 
@@ -81,20 +81,20 @@ $fun: 'Nunito', sans-serif;
   text-decoration: none;
 }
 
-.navlink:hover{
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-  font-family: $sarif;
-  font-size: 36px;
-  color: darken($salmon, 20%);
-  // text-decoration: underline;
-}
+// .navlink:hover{
+//   -o-transition:.5s;
+//   -ms-transition:.5s;
+//   -moz-transition:.5s;
+//   -webkit-transition:.5s;
+//   transition:.5s;
+//   font-family: $sarif;
+//   font-size: 36px;
+//   color: darken($salmon, 20%);
+//   // text-decoration: underline;
+// }
 
 #about{
-  background-color: rgba(51, 50, 51, 0.65);
+  background-color: rgba(51, 50, 51, 0.7);
 }
 
 #profile{
@@ -175,19 +175,6 @@ $fun: 'Nunito', sans-serif;
   width: 100%;
 }
 
-.projectimg:hover{
-  // -o-transition:.5s;
-  // -ms-transition:.5s;
-  // -moz-transition:.5s;
-  // -webkit-transition:.5s;
-  // transition:.5s;
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
-}
-
 .projectlinks{
   color: $salmon;
   text-decoration: none;
@@ -207,29 +194,29 @@ $fun: 'Nunito', sans-serif;
 
 }
 
-#project1big{
-  background: url("../images/project1big.png");
-  background-size: cover;
-}
-#project2big{
-  background: url("../images/project2big.png");
-  background-size: cover;
-}
-#project3big{
-  background: url("../images/project3big.png");
-  background-size: cover;
-}
-#project4big{
-  background: url("../images/project4big.png");
-  background-size: cover;
-}
-
-.bigdesc{
-  text-align: center;
-  background-color: rgba(40, 40, 40, 0.9);
-  color: white;
-  font-family: $fun;
-}
+// #project1big{
+//   background: url("../images/project1big.png");
+//   background-size: cover;
+// }
+// #project2big{
+//   background: url("../images/project2big.png");
+//   background-size: cover;
+// }
+// #project3big{
+//   background: url("../images/project3big.png");
+//   background-size: cover;
+// }
+// #project4big{
+//   background: url("../images/project4big.png");
+//   background-size: cover;
+// }
+//
+// .bigdesc{
+//   text-align: center;
+//   background-color: rgba(40, 40, 40, 0.9);
+//   color: white;
+//   font-family: $fun;
+// }
 
 
 // #trial{

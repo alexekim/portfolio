@@ -48,21 +48,11 @@
 .navlink {
   font-family: "Merriweather", serif;
   font-size: 36px;
-  color: #de4545;
+  color: #cc2d2d;
   text-decoration: none; }
 
-.navlink:hover {
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
-  font-family: "Merriweather", serif;
-  font-size: 36px;
-  color: #a11c1c; }
-
 #about {
-  background-color: rgba(51, 50, 51, 0.65); }
+  background-color: rgba(51, 50, 51, 0.7); }
 
 #profile {
   text-align: center;
@@ -76,7 +66,7 @@
   font-family: "Fjalla One", sans-serif;
   font-size: 48px;
   font-weight: bold;
-  color: #de4545; }
+  color: #cc2d2d; }
 
 .profiletext {
   color: white;
@@ -84,13 +74,13 @@
   font-size: 18px; }
 
 .red {
-  color: #de4545;
+  color: #cc2d2d;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-weight: bold; }
 
 #mugtext {
-  color: #de4545;
+  color: #cc2d2d;
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-weight: bold; }
@@ -128,21 +118,14 @@
   height: 100%;
   width: 100%; }
 
-.projectimg:hover {
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px); }
-
 .projectlinks {
-  color: #de4545;
+  color: #cc2d2d;
   text-decoration: none;
   background-color: #303030;
   padding: 4px; }
 
 .projectlinks:hover {
-  color: #de4545;
+  color: #cc2d2d;
   text-decoration: none;
   background-color: white;
   padding: 4px;
@@ -151,27 +134,5 @@
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s; }
-
-#project1big {
-  background: url("../images/project1big.png");
-  background-size: cover; }
-
-#project2big {
-  background: url("../images/project2big.png");
-  background-size: cover; }
-
-#project3big {
-  background: url("../images/project3big.png");
-  background-size: cover; }
-
-#project4big {
-  background: url("../images/project4big.png");
-  background-size: cover; }
-
-.bigdesc {
-  text-align: center;
-  background-color: rgba(40, 40, 40, 0.9);
-  color: white;
-  font-family: "Nunito", sans-serif; }
 
 /*# sourceMappingURL=sassfile.css.map */
